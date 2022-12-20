@@ -26,4 +26,4 @@ Users should be able to:
 
 
 ### Links
-- Live Site URL: https://bouchraakl.github.io/Product-preview-card-component/
+- Live Site URL: 
