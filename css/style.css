@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+:root{
+    --darkCyanPrimary:hsl(158, 36%, 37%);
+    --creamPrimary : hsl(30, 38%, 92%);
+
+    --darkBlueNeutral: hsl(212, 21%, 14%);
+    --grayishBlueNeutral: hsl(228, 12%, 48%);
+    --whiteNeutral: hsl(0, 0%, 100%);
+
+    --fontMontserrat: 'Montserrat', sans-serif;
+    --fontFraunces: 'Fraunces', serif;
+}
+
+body{
+    margin: 0;
+    background-color: var(--creamPrimary);
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+
+
+p,
+h1 {
+  overflow-wrap: break-word;
+}
+
+section{
+    display: grid;
+    grid-template-columns: auto auto;
+    max-height: auto;
+    width: 60vw;
+    min-height: 220px;
+    max-height: auto;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: var(--whiteNeutral);
+
+}
+
+picture img{
+    max-width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.content{
+    border-radius: 5px;
+    padding: .8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.content .header{
+    text-transform: uppercase;
+    color: var(--grayishBlueNeutral);
+    letter-spacing: .6rem;
+}
+
+.content h1{
+font-family: var(--fontFraunces);
+font-size: 2.4rem;
+}
+
+.content .discp{
+    font-family: var(--fontMontserrat);
+    font-size: 14px;
+    color: var(--grayishBlueNeutral);
+    line-height: 1.3rem;
+}
+
+
+.content .pr{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: var(--fontFraunces);
+}
+
+.pr .price{
+color: var(--darkCyanPrimary);
+font-size: 2rem;
+}
+
+.pr .priceoff{
+    color: var(--grayishBlueNeutral);
+    text-decoration: line-through;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    padding: 1rem;
+    width: 70%;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: var(--darkCyanPrimary);
+    color: var(--whiteNeutral);
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+
+}
+
+@media (max-width:859px) {
+    section{
+        grid-template-columns: auto;
+        width: 40%;
+    }
+   
+}
+
+@media (max-width:539px) {
+    picture img{
+        height: 300px;
+        width: 170px;
+    }
+
+    section{
+        width:170px ;
+    }
+
+    .content{
+        align-items: center;
+    }
+
+    .content h1{
+        font-size: .8rem;
+    }
+
+    .content .pr{
+        flex-direction: column;
+    }
+   
+}
