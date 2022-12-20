@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Screenshot
 <img width="580" alt="image" src="https://user-images.githubusercontent.com/97567643/208788148-d3c9dfb0-fd1a-4996-889d-46fa306cc523.png">
-<img width="393" alt="image" src="https://user-images.githubusercontent.com/97567643/208788208-510bad67-73f8-4415-9e1a-35383f4962d1.png">
+<img width="387" alt="image" src="https://user-images.githubusercontent.com/97567643/208788284-1fc100cd-1ed8-43a3-85ab-13ba9bb6be59.png">
 
 ### Links
 - Live Site URL: https://bouchraakl.github.io/Product-preview-card-component/
