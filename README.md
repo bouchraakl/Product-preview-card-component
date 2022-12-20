@@ -20,10 +20,8 @@ Users should be able to:
 - See hover and focus states for interactive elements
 
 ### Screenshot
-![image](https://user-images.githubusercontent.com/97567643/208555999-c79fe466-f25c-4881-9e29-5b8d4d4aa574.png)
-
-<img width="557" alt="image" src="https://user-images.githubusercontent.com/97567643/208555993-56d56907-4341-4a54-824c-4c7554ac8d7b.png">
-
+<img width="580" alt="image" src="https://user-images.githubusercontent.com/97567643/208788148-d3c9dfb0-fd1a-4996-889d-46fa306cc523.png">
+<img width="393" alt="image" src="https://user-images.githubusercontent.com/97567643/208788208-510bad67-73f8-4415-9e1a-35383f4962d1.png">
 
 ### Links
 - Live Site URL: https://bouchraakl.github.io/Product-preview-card-component/
